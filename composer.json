@@ -1,0 +1,31 @@
+{
+    "name": "koltsova/history_writer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kate Koltsova",
+            "email": "kate.petronyuk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Koltsova\\History_writer\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Koltsova\\History_writer\\Providers\\HistoryServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
